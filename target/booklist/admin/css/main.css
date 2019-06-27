@@ -1,0 +1,56 @@
+.logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: -15px;
+	margin-right: 5px
+}
+
+.customBrand {
+		margin-bottom: 40px;
+	}
+
+.logoTitle {
+	font-size: 16px;
+}
+
+.searchIcon {
+	position: relative;
+	right: 30px;
+}
+
+@media (max-width: 768px) {
+	.searchIcon {
+		display: none;
+	}
+}
+
+.searchInput {
+	padding-right: 30px;
+}
+
+
+.usefullLinks {
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid #DAA520;
+	margin: 5px 0;
+}
+
+.usefullLinks article figure a img {
+	height: 80px;
+}
+
+.pdfLinks {
+	color: green;
+	text-decoration: underline;
+}
+
+
+.photo_gallery, .video_gallery {
+	margin-bottom: 50px;
+}
+
+.single-content {
+	margin-top: 20px;
+}
